@@ -1,12 +1,20 @@
-/* style mają dotyczyć tylko body */
+:root {
+  --main-color: #2196F3;
+}
+
+body {
+  background-color: #e5e5e5;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
 
 /* pseudoklasa przy najechaniu myszką */
 nav a:hover {
-    color: #2196F3;
+    color: var(--main-color);
     text-decoration: none;
   }
 
-
-body {
-    font-family:
-}
+  /* buttons */
+  .click {
+    cursor: pointer;
+  }
