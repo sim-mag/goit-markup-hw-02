@@ -2,7 +2,8 @@
 
 <a href="https://sim-mag.github.io/goit-markup-hw-01/">Podgląd strony</a>
 
-### Projekt
+## Projekt
+
 <ol>
 <li>W katalogu głównym projektu znajduje się folder images z obrazami.</li>
 
@@ -19,8 +20,11 @@
 <li>Wszystkie mapy bitowe są optymalizowane przy użyciu squoosh.</li>
 
 <li>Kod jest napisany zgodnie z tutorialem.</li>
+</ol>
 
 ## Znaczniki HTML
+
+<ol>
 <li>Znaczniki HTML strony Portfolio wpisują się w pliku portfolio.html.</li>
 
 <li>Wykonane są znaczniki HTML wszystkich elementów układu.</li>
@@ -48,8 +52,11 @@
 <li>Wszystkie czcionki i ich odmiany wymagane dla układu (grubość i styl) są podłączone z usługi Google Fonts za pomocą jednego linku. Wymagana waga dla Raleway – 700, a dla Roboto – 400, 500, 700 i 900.</li>
 
 <li>Wewnątrz znaczników przycisku nie ma żadnych dodatkowych elementów, takich jak spany lub linki.</li>
+</ol>
 
 ## Stylizacja
+
+<ol>
 <li>Nie ma stylów globalnych dla elementów innych niż body.</li>
 
 <li>Do stylizacji służą selektory klasy.</li>
