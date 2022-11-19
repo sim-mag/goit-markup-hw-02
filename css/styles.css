@@ -1,0 +1,12 @@
+/* style mają dotyczyć tylko body */
+
+/* pseudoklasa przy najechaniu myszką */
+nav a:hover {
+    color: #2196F3;
+    text-decoration: none;
+  }
+
+
+body {
+    font-family:
+}
