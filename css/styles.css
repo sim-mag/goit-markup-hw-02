@@ -1,20 +1,121 @@
 :root {
-  --main-color: #2196F3;
+    --blue: #2196f3;
+    --black: #212121;
+    --grey: #757575;
+    --background-grey: #2f303a;
 }
 
 body {
-  background-color: #e5e5e5;
-  /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
 }
 
-/* pseudoklasa przy najechaniu myszką */
-nav a:hover {
-    color: var(--main-color);
+/* HEADER */
+.nav {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
     text-decoration: none;
-  }
+}
 
-  /* buttons */
-  .click {
-    cursor: pointer;
-  }
+.nav-contact {
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.company-name {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo {
+    color: var(--blue);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* EFEKTYWNE ROZWIĄZANIA... */
+.solutions {
+    color: white;
+    background-color: var(--background-grey);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* SEKCJA TEKSTOWA LOREM */
+.lorems {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.lorem-title {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* CZYM SIĘ ZAJMUJEMY, NASZ ZESPÓŁ */
+.section-title {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.name {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.profession {
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* MAIN STRONY PORTFOLIO */
+.title {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.type {
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* STOPKA */
+footer {
+    color: white;
+    background-color: var(--background-grey);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-contact {
+    color: #FFFFFF99;
+    text-decoration: none;
+}
