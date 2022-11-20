@@ -11,20 +11,15 @@ body {
 }
 
 /* HEADER */
-header a {
-    color: var(--black);
+.nav, .contact.nav {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
 
-nav a.contact {
+.contact {
     color: var(--grey);
-}
-
-nav a.active {
-    color: var(--blue);
 }
 
 .company-name {
@@ -32,13 +27,15 @@ nav a.active {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
+    line-height: 31px;
+    text-decoration: none;
 }
 
 .logo {
     color: var(--blue);
 }
 
-nav a:hover {
+.nav:hover {
     color: var(--blue);
 }
 
@@ -56,15 +53,12 @@ nav a:hover {
 /* BUTTONS */
 .button {
     background-color: #f5f4fa;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     border: none;
-}
-
-.actual {
-    color: white;
-    background-color: var(--blue);
+    cursor: pointer;
 }
 
 .index {
@@ -74,15 +68,26 @@ nav a:hover {
     line-height: 30px;
 }
 
+.button:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+.button:focus {
+    color: white;
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
 /* SEKCJA TEKSTOWA LOREM */
-.lorems {
+.articles {
     color: var(--grey);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.lorem-title {
+.articles h3 {
     color: var(--black);
     font-weight: 700;
     font-size: 14px;
@@ -97,14 +102,14 @@ nav a:hover {
     line-height: 42px;
 }
 
-.name {
+.our-team h3 {
     color: var(--black);
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
 }
 
-.profession {
+.profession {  /* zostawiam taką klasę, żeby nie dawać nowego nagłówka w sekcji h4 */
     color: var(--grey);
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +117,7 @@ nav a:hover {
 }
 
 /* MAIN STRONY PORTFOLIO */
-.title {
+.portfolio h3 {
     color: var(--black);
     font-weight: 700;
     font-size: 18px;
@@ -133,6 +138,16 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    text-decoration: none;
+}
+
+.company-name-footer {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    text-decoration: none;
 }
 
 address {
@@ -142,4 +157,8 @@ address {
 .footer-contact {
     color: #ffffff99;
     text-decoration: none;
+}
+
+.footer-contact:hover {
+    color: var(--blue);
 }
