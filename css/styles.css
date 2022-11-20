@@ -12,15 +12,15 @@ body {
 
 /* HEADER */
 header a {
-  color: var(--black);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 nav a.contact {
-  color: var(--grey);
+    color: var(--grey);
 }
 
 nav a.active {
@@ -39,7 +39,7 @@ nav a.active {
 }
 
 nav a:hover {
-  color: var(--blue);
+    color: var(--blue);
 }
 
 /* EFEKTYWNE ROZWIĄZANIA... */
@@ -55,23 +55,23 @@ nav a:hover {
 
 /* BUTTONS */
 .button {
-  background-color: #F5F4FA;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  border: none;
+    background-color: #f5f4fa;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
 }
 
 .actual {
-  color: white;
-  background-color: var(--blue)
+    color: white;
+    background-color: var(--blue);
 }
 
 .index {
-  color: white;
-background-color: var(--blue);
-  font-weight: 700;
-  line-height: 30px;
+    color: white;
+    background-color: var(--blue);
+    font-weight: 700;
+    line-height: 30px;
 }
 
 /* SEKCJA TEKSTOWA LOREM */
