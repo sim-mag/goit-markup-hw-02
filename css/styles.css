@@ -11,7 +11,7 @@ body {
 }
 
 /* HEADER */
-.nav, .contact.nav {
+.nav, .contact {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -20,6 +20,10 @@ body {
 
 .contact {
     color: var(--grey);
+}
+
+.tab {
+    color: var(--black);
 }
 
 .company-name {
