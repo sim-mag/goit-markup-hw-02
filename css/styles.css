@@ -92,6 +92,11 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    list-style: none;
+}
+
+.no-marks {
+    list-style: none;
 }
 
 /* CZYM SIĘ ZAJMUJEMY, NASZ ZESPÓŁ */
@@ -132,7 +137,7 @@ body {
 }
 
 /* STOPKA */
-footer {
+.footer-wrapper {
     color: white;
     background-color: var(--background-grey);
     font-weight: 400;
@@ -150,13 +155,17 @@ footer {
     text-decoration: none;
 }
 
-address {
+.footer-wrapper address {
     font-style: normal;
 }
 
 .footer-contact {
     color: #ffffff99;
     text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .footer-contact:hover {
