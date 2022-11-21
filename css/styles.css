@@ -11,7 +11,8 @@ body {
 }
 
 /* HEADER */
-.nav, .contact {
+.nav,
+.contact {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -118,7 +119,8 @@ body {
     line-height: 19px;
 }
 
-.profession {  /* zostawiam taką klasę, żeby nie dawać nowego nagłówka w sekcji h4 */
+.profession {
+    /* zostawiam taką klasę, żeby nie dawać nowego nagłówka w sekcji h4 */
     color: var(--grey);
     font-weight: 400;
     font-size: 16px;
