@@ -1,6 +1,6 @@
-# Zadanie domowe 2
+# Zadanie domowe 3
 
-<a href="https://sim-mag.github.io/goit-markup-hw-02/">Podgląd strony</a>
+<a href="https://sim-mag.github.io/goit-markup-hw-03/">Podgląd strony</a>
 
 ## Projekt
 
@@ -22,72 +22,40 @@
 <li>Kod jest napisany zgodnie z tutorialem.</li>
 </ol>
 
-## Znaczniki HTML
-
-<ol>
-<li>Znaczniki HTML strony Portfolio wpisują się w pliku portfolio.html.</li>
-
-<li>Wykonane są znaczniki HTML wszystkich elementów układu.</li>
-
-<li>Tagi są używane zgodnie z ich znaczeniem semantycznym.</li>
-
-<li>HTML jest weryfikowany przez walidator bez błędów.</li>
-
-<li>Nazwy klas są zrozumiałe dla innego programisty.</li>
-
-<li>Nazwy klas nie zawierają wielkich liter, spacji, transliteracji i nazw tagów, a jedynie litery i słowa w języku angielskim. Jeśli nazwa klasy składa się z kilku słów, są one oddzielone myślnikiem.</li>
-
-<li>Atrybut href linków nawigacyjnych Studio i Portfolio zawiera względną ścieżkę do plików HTML tych stron. Kliknięcie linku powoduje przejście do odpowiedniej strony w bieżącej karcie przeglądarki.</li>
-
-<li>Tagi img mają atrybuty wymiarów, co najmniej width i height.</li>
-
-<li>Obrazy są wyeksportowane z układu w formacie jpg.</li>
-
-<li>Grupy elementów tego samego typu są gromadzone na listach ul.</li>
-
-<li>Filtr na stronie Portfolio jest tworzony przez listę przycisków, z których każdy ma ustawiony atrybut type="button".</li>
-
-<li>Znaczniki nagłówka i stopki są takie same na wszystkich stronach.</li>
-
-<li>Wszystkie czcionki i ich odmiany wymagane dla układu (grubość i styl) są podłączone z usługi Google Fonts za pomocą jednego linku. Wymagana waga dla Raleway – 700, a dla Roboto – 400, 500, 700 i 900.</li>
-
-<li>Wewnątrz znaczników przycisku nie ma żadnych dodatkowych elementów, takich jak spany lub linki.</li>
-</ol>
-
 ## Stylizacja
 
 <ol>
-<li>Nie ma stylów globalnych dla elementów innych niż body.</li>
+<li>Dozwolone jest globalne resetowanie stylów selektora tagu dla elementów h1...h6, p i ul.</li>
 
-<li>Do stylizacji służą selektory klasy.</li>
+<li>Elementy nie mają marginesów zewnętrznych (właściwość margin), które „przebijają” element nadrzędny (rodzicielski).</li>
 
-<li>W stylach nie ma !important.</li>
+<li>W kolekcjach elementów z jednym wierszem usunięto skrajny lewy lub skrajny prawy margin elementów (jeśli istnieje).</li>
 
-<li>Elementy interaktywne (przyciski i linki) po najechaniu myszką lub focusie z klawiatury mają stan aktywny wskazany w układzie (zmiana koloru).</li>
+<li>Właściwość margin jest używana w przypadku marginesów między dwoma sąsiednimi elementami.</li>
 
-<li>Tekst kontaktów w nagłówku i stopce zmienia kolor po najechaniu kursorem i focusie.</li>
+<li>Właściwość padding służy do określenia odstępu między granicą elementu nadrzędnego a jego elementem podrzędnym.</li>
 
-<li>Do przechowywania palety kolorów układu (tekst, tło, zaznaczenie) używane są zmienne CSS.</li>
+<li>Rozmiary marginesów zewnętrznych (właściwość margin) i dopełnień wewnętrznych (właściwość padding) elementów są ustawiane dokładnie zgodnie z układem.</li>
 
-<li>Element body ma właściwość font-family z dominującą czcionką Roboto w układzie.</li>
+<li>Utworzono ogólną klasę pomocniczą .container do wyśrodkowywania i ograniczania szerokości zawartości.</li>
 
-<li>Alternatywne opcje czcionek i typ rodziny (bezszeryfowa) są określone na końcu wyliczenia font-family dla elementu body.</li>
+<li>Szerokość .container jest zgodna z układem i wynosi 1200px.</li>
 
-<li>Rodzina czcionek Roboto jest wyraźnie określona tylko dla elementu body, pozostałe elementy go dziedziczą.</li>
+<li>.container otacza zawartość nagłówka, stopki i sekcji. Oznacza to, że jest wewnątrz nich.</li>
 
-<li>Element body ma właściwość color z dominującym w układzie kolorem tekstu. Reszta tekstu dziedziczy lub zastępuje tę wartość.</li>
+<li>Użyj Flexbox do rozmieszczenia elementów, ale tylko w razie potrzeby. Na przykład w nagłówku, nawigacji, listach w sekcjach itd., czyli tam, gdzie nie można inaczej rozmieścić elementów w poziomie.</li>
 
-<li>Rozmiar czcionki (właściwość font-size) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu.</li>
+<li>Ostateczne rozmiary bloków w przeglądarce odpowiadają układowi.</li>
 
-<li>Wysokość wiersza (właściwość line-height) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu i jest określona jako mnożnik, a nie w px.</li>
+<li>Elementy nie mają ustalonej wysokości, zależy to od ich zawartości.</li>
 
-<li>Kolor (właściwość color) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu.</li>
+<li>Header ma dolne obramowanie, musisz bardzo powiększyć, aby go zobaczyć.</li>
 
-<li>Waga czcionki (właściwość font-weight) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu.</li>
+<li>Sekcje są ułożone jedna pod drugą jak stos książek, bez zewnętrznych marginesów.</li>
 
-<li>Waga czcionki (właściwość font-weight) jest wyraźnie określona tylko wtedy, gdy wartość w układzie różni się od domyślnej dla tego elementu w przeglądarce.</li>
+<li>Dla wszystkich sekcji używana jest jedna klasa .section, górne i dolne padding są ustawione na 94px, wypychając zawartość do wnętrza sekcji.</li>
 
-<li>Przyciski mają określoną właściwość cursor z wartością pointer.</li>
+<li>Do budowy siatek wykorzystywana jest technika opisana w konspekcie.</li>
 
-<li>W stylach nie powtarza się domyślnych wartości właściwości ustawionych przez przeglądarkę. Na przykład, linki nie muszą mieć cursor: pointer, akapity nie muszą mieć font-style: normal lub font-weight: 400.</li>
+<li>Karty na stronie Portfolio mają obramowanie (właściwość border), ale tylko na dole karty.</li>
 </ol>
