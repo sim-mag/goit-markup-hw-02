@@ -1,6 +1,6 @@
-# Zadanie domowe 2
+# Zadanie domowe 3
 
-<a href="https://sim-mag.github.io/goit-markup-hw-02/">Podgląd strony</a>
+<a href="https://sim-mag.github.io/goit-markup-hw-03/">Podgląd strony</a>
 
 ## Projekt
 
